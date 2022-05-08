@@ -1,0 +1,50 @@
+
+/**************************  Part 1 *************************/
+#jok1 , #jok2{
+    background-color: transparent;
+    border:3px solid white;border-radius: 15px; 
+}
+#lo, #li{
+    color: white;
+}
+#lo:hover , #li:hover{
+    color: #640b0b;
+}
+#jok1:hover, #jok2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    box-shadow: 0px 7px 13px white;
+    font-weight: 700;
+}
+#imp{
+    position: fixed;
+    scroll-margin-bottom: 100000000px;
+}
+#fk{
+   height: auto;
+}
+.t1{
+    font-size: 12.5em;
+    color: rgba(128, 128, 128, 0.219);
+    font-weight: 700;
+    letter-spacing: -16px;
+}
+/**************************  Part 2 *************************/
+   ::placeholder{
+    padding-left: 10px;
+}
+    #msr form ::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.bh{
+    background-color: #8c1313;
+}
+.pol:hover{
+    font-weight: 800;
+    box-shadow: 0px 7px 19px white;
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+}
